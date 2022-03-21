@@ -25,7 +25,16 @@ __VIM__:
      procurar e descomentar "syntax ON"
      escrever "set number" na linha de baixo
      ```
-  ~~3.~~
+3. Outros comandos:
+
+|  Função               |  Comando                 |
+| --------------------- | ------------------------ |
+|  Entrar no Insert     |  Tecla "i"               |
+|  Sair do Insert       |  Tecla "esc"             |
+|  Sair e salvar        |  "wq"                    |
+|  Sair sem salvar      |  "q!"                    |
+|  Copiar ___linhas___  |  "y + nº de linhas + y"  |
+|  Colar ___linhas___   |  "p"                     |
 
 __APACHE 2__:
 1. Desabilitar site:
@@ -40,9 +49,8 @@ a2insite
 ```
 echo "Mensagem Index" > /var/www/[Diretório_do_site]/index.html
 ```
-  ~~4.~~
 
-__BIND9__ ***Alguns comandos necessitam do VIM***
+__BIND9__ ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Declarar uma zona 
 ```
 vim named.conf.local
@@ -51,11 +59,15 @@ vim named.conf.local
 ```
 vim named.conf.default-zone
 ```
-  ~~3.~~
 
-__PROFTPD__ ***Alguns comandos necessitam do VIM***
+__PROFTPD__ ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Configurar o proftpd
 ```
 vim proftpd.conf
 ```
-  ~~2.~~
+
+__NGINX__ ***Alguns comandos necessitam do VIM ou editor de texto***
+1. Config. do Nginx
+```
+vim /etc/nginx/nginx.config
+```
