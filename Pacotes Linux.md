@@ -50,7 +50,7 @@ a2insite
 echo "Mensagem Index" > /var/www/[Diretório_do_site]/index.html
 ```
 
-__BIND9__ ***Alguns comandos necessitam do VIM ou editor de texto***
+__BIND9__ - ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Declarar uma zona 
 ```
 vim named.conf.local
@@ -60,13 +60,13 @@ vim named.conf.local
 vim named.conf.default-zone
 ```
 
-__PROFTPD__ ***Alguns comandos necessitam do VIM ou editor de texto***
+__PROFTPD__ - ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Configurar o proftpd
 ```
 vim proftpd.conf
 ```
 
-__NGINX__ ***Alguns comandos necessitam do VIM ou editor de texto***
+__NGINX__ - ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Config. do Nginx
 ```
 vim /etc/nginx/nginx.config
