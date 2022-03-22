@@ -16,7 +16,7 @@ Segue uma lista com alguns ```Pacotes``` para instalar no Linux e seus ```Comand
 ### Comandos dos Pacotes
 __VIM__:
 1. Configs do VIM:
-     ```
+     ```ruby
      vim /etc/vim/vimrc
      ```
 2. Exibir número de linhas:
@@ -27,47 +27,47 @@ __VIM__:
      ```
 3. Outros comandos:
 
-|  Função               |  Comando                 |
-| --------------------- | ------------------------ |
-|  Entrar no Insert     |  Tecla "i"               |
-|  Sair do Insert       |  Tecla "esc"             |
-|  Sair e salvar        |  "wq"                    |
-|  Sair sem salvar      |  "q!"                    |
-|  Copiar ___linhas___  |  "y + nº de linhas + y"  |
-|  Colar ___linhas___   |  "p"                     |
+  | Função | Comando |
+| --- | --- |
+| Entrar no Insert | Tecla "i" |
+| Sair do Insert | Tecla "esc" |
+| Sair e salvar | "wq" |
+| Sair sem salvar | "q!" |
+| Copiar ___linhas___ | "y + nº de linhas + y" |
+| Colar ___linhas___  | "p" |
 
 __APACHE 2__:
 1. Desabilitar site:
-  ```
+  ```ruby
   a2dissite
   ```
 2. Habilitar site:
-```
-a2insite
-```
+  ```ruby
+  a2insite
+  ```
 3. Configurar arquivo Index de maneira simples:
-```
-echo "Mensagem Index" > /var/www/[Diretório_do_site]/index.html
-```
+  ```ruby
+  echo "Mensagem Index" > /var/www/[Diretório_do_site]/index.html
+  ```
 
 __BIND9__ - ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Declarar uma zona 
-```
+```ruby
 vim named.conf.local
 ```
 2. Ver zonas default
-```
+```ruby
 vim named.conf.default-zone
 ```
 
 __PROFTPD__ - ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Configurar o proftpd
-```
+```ruby
 vim proftpd.conf
 ```
 
 __NGINX__ - ***Alguns comandos necessitam do VIM ou editor de texto***
 1. Config. do Nginx
-```
+```ruby
 vim /etc/nginx/nginx.config
 ```
