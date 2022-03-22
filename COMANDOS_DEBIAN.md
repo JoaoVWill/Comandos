@@ -1,16 +1,19 @@
-# **Comandos_Debian**
-## *Descrição*
+# <img align="center" alt="Debian" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-plain-wordmark.svg" /> **Comandos_Debian**
+
+### *Descrição*
 
   Arquivo .md separado para armazenar comandos gerais do Linux Debian 
   *podem funcionar em outro sistemas de base Linux ou não*
   
-## *Informações*
+### *Informações*
 
 Alguns detalhes a se falar aqui sobre este repositório:
 - O comando que tiver o "vim" poderar ser substituido pelo editor de texto que você tiver em sua máquina;
 - Aqui eu irei colocar o básico dos comandos, nenhuma config mais especifica ou mais detalhada;
 
-## *Tópicos*
+##
+
+### *Tópicos*
 
 Aqui os links para chegar no tópico que seja do seu interesse
 
@@ -21,8 +24,9 @@ Aqui os links para chegar no tópico que seja do seu interesse
 - [USUÁRIOS,GRUPOS & DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS_DEBIAN.md#usu%C3%A1rios-grupos--diret%C3%B3rios)
 
 
+## 
 
-## *Início*
+### *Início*
   ***Aqui está o mais basíco do Linux:***
   1. Instalação de pacotes: 
   ```ruby
@@ -36,7 +40,7 @@ Aqui os links para chegar no tópico que seja do seu interesse
   ```
   3. Trocar terminal no Debian (Linux):
   
-  Alt + seta direita/esquerda __OU__  Alt + f1 até f6
+     Alt + seta direita/esquerda __OU__  Alt + f1 até f6
   
   4. Limpar tela
   ```ruby
@@ -47,7 +51,9 @@ Aqui os links para chegar no tópico que seja do seu interesse
   ```ruby
   bash
   ```
-## *Máquina*
+##
+
+### *Máquina*
   ***Comandos relacionada a máquina geral***
   1. Mudar nome da máquina:
   ```ruby
@@ -60,11 +66,15 @@ Aqui os links para chegar no tópico que seja do seu interesse
   ```
   
   3. Reiniciar máquina 
+  
+  ```ruby 
+  systemctl restart netwoking
+  ```
+  ↑ [^1]
   ```ruby
-  systemctl restart networking¹
   service networkinfg resart 
   ```
-  (¹: pode ser usado para reiniciar serviços/pacotes se necessário)
+  [^1]: pode ser usado para reiniciar serviços/pacotes se necessário, só substituir `netwoking` pelo nome do pacote
 
   4. Ver LOG do sistema
   ```ruby
@@ -81,4 +91,6 @@ Aqui os links para chegar no tópico que seja do seu interesse
   cp [Arquivo][Nome_do_Backup]
   ```
   
-  ## *USUÁRIOS, GRUPOS & DIRETÓRIOS*
+  ##
+  
+  ### *USUÁRIOS, GRUPOS & DIRETÓRIOS*
