@@ -12,8 +12,15 @@ Alguns detalhes a se falar aqui sobre este repositório:
 
 ## *Tópicos*
 
-Aqui os links para chegar no tópico quem vc desejar
-[Início]()
+Aqui os links para chegar no tópico que seja do seu interesse
+
+- [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS_DEBIAN.md#in%C3%ADcio)
+
+- [MÁQUINA](https://github.com/jvwill/Comandos/blob/main/COMANDOS_DEBIAN.md#m%C3%A1quina)
+
+- [USUÁRIOS,GRUPOS & DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS_DEBIAN.md#usu%C3%A1rios-grupos--diret%C3%B3rios)
+
+
 
 ## *Início*
   ***Aqui está o mais basíco do Linux:***
