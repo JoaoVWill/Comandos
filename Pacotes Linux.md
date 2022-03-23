@@ -15,6 +15,11 @@ Segue uma lista com alguns ```Pacotes``` para instalar no Linux e seus ```Comand
 
 ### Comandos dos Pacotes
 __VIM__:
+
+<div align="center">
+     para entrar em edição de texto sem instalar, substituia o <b>"vim"</b> por <b>"vim.tiny"</b>
+</div>
+
 1. Configs do VIM:
      ```ruby
      vim /etc/vim/vimrc
@@ -27,7 +32,7 @@ __VIM__:
      ```
 3. Outros comandos:
 
-  | Função | Comando |
+| Função | Comando |
 | --- | --- |
 | Entrar no Insert | Tecla "i" |
 | Sair do Insert | Tecla "esc" |
