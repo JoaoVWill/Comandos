@@ -94,3 +94,111 @@ Aqui os links para chegar no tópico que seja do seu interesse
   ##
   
   ### *USUÁRIOS, GRUPOS & DIRETÓRIOS*
+   ***aqui os comandos para edição de usuários, grupos e diretórios***
+   
+  1. Criar Usuários
+  ```ruby
+  adduser [Nome_do_Usuário]
+  ```
+  
+  2. Excluir Usuários
+  ```ruby
+  userdel -r [Nome_do_Usuário]
+  ```
+  
+  3. Entrar em outro usuário
+  ```ruby
+  login [Nome_do_Usuário]
+  ```
+  
+  4. Vizualizar Usuários
+  ```ruby
+  cat /etc/passwd
+  ```
+  
+  5. Criar um Grupo
+  ```ruby
+  groupadd [Nome_do_Grupo]
+  ```
+  ```ruby
+  addgroup [Nome_do_Grupo]
+  ```
+  
+  6. Deletar um Grupo
+  ```ruby
+  groupdel [Grupo]
+  ```
+  
+  7. Vizualizar Grupos
+  ```ruby
+  cat etc/group
+  ```
+  
+  8. Adicionar Usuário ao Grupo
+  ```ruby
+  adduser [Nome_do_Usuário][Grupo]
+  ```
+  ```ruby
+  addgroup [Nome_do_Usuário][Grupo]
+  ```
+  ```ruby
+  gpasswd -a [Nome_do_Usuário][Grupo]
+  ```
+  ```ruby
+  usermod -a -G [Grupo][Nome_do_Usuário]
+  ```
+  
+  9. Deletar Usuário do Grupo
+  ```ruby
+  gpasswd -d [Nome_do_Usuário][Grupo]
+  ```
+    
+  10. Acessar um Diretorio
+  ```ruby
+  cd /etc/[Caminho]/[Nome_do_Diretorio]
+  ```      
+  
+  11. Criar um Diretorio
+  ```ruby
+  mkdir -p /mnt/[Nome_do_Diretorio]
+  ```
+  
+  12. Sair do Diretorio
+  ```ruby
+  cd ..
+  ```
+   
+  13. Criar Usuário/Grupo em um Diretorio
+  
+  __GRUPO__
+  ```ruby
+  mkdir -p /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]
+  ```
+  __USUÁRIO__
+  ```ruby
+  mkdir -p /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]/[Nome_do_Usuário] 
+  ```
+  
+  14. Criar Pasta em um Diretorio
+  ```ruby
+  chgrp [Nome_da_Pasta_do_Grupo] /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo] [Nome_da_Pasta_do_Grupo]
+  ```
+  
+  15. Dar Permissão para um Grupo/Usuário
+  
+  __GRUPO__
+  ```ruby
+  chmod 750 /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]
+  ```
+  __USUÁRIO__
+  ```ruby      
+  chmod 750 /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]/[Nome_do_Usuário]
+  ```
+  16. Tornar um Usuário Dono da Pasta
+  ```ruby
+  chown [Nome_do_Usuário].[Nome_do_Grupo] /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]/[Nome_do_Usuário]
+  ```
+  
+  ##
+  
+  ### FIM
