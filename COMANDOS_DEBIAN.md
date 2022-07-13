@@ -111,12 +111,20 @@ Aqui os links para chegar no tópico que seja do seu interesse
   login [Nome_do_Usuário]
   ```
   
-  4. Vizualizar Usuários
+  ```ruby
+  su [Nome_do_Usuário]
+  ```
+  4. Trocar senha de um usuário
+  ```ruby
+  passwd 
+  ```
+ 
+  6. Vizualizar Usuários
   ```ruby
   cat /etc/passwd
   ```
   
-  5. Criar um Grupo
+  6. Criar um Grupo
   ```ruby
   groupadd [Nome_do_Grupo]
   ```
@@ -124,17 +132,17 @@ Aqui os links para chegar no tópico que seja do seu interesse
   addgroup [Nome_do_Grupo]
   ```
   
-  6. Deletar um Grupo
+  7. Deletar um Grupo
   ```ruby
   groupdel [Grupo]
   ```
   
-  7. Vizualizar Grupos
+  8. Vizualizar Grupos
   ```ruby
   cat etc/group
   ```
   
-  8. Adicionar Usuário ao Grupo
+  9. Adicionar Usuário ao Grupo
   ```ruby
   adduser [Nome_do_Usuário][Grupo]
   ```
@@ -148,27 +156,27 @@ Aqui os links para chegar no tópico que seja do seu interesse
   usermod -a -G [Grupo][Nome_do_Usuário]
   ```
   
-  9. Deletar Usuário do Grupo
+  10. Deletar Usuário do Grupo
   ```ruby
   gpasswd -d [Nome_do_Usuário][Grupo]
   ```
     
-  10. Acessar um Diretorio
+  11. Acessar um Diretorio
   ```ruby
   cd /etc/[Caminho]/[Nome_do_Diretorio]
   ```      
   
-  11. Criar um Diretorio
+  12. Criar um Diretorio
   ```ruby
   mkdir -p /mnt/[Nome_do_Diretorio]
   ```
   
-  12. Sair do Diretorio
+  13. Sair do Diretorio
   ```ruby
   cd ..
   ```
    
-  13. Criar Usuário/Grupo em um Diretorio
+  14. Criar Usuário/Grupo em um Diretorio
   
   __GRUPO__
   ```ruby
@@ -179,12 +187,12 @@ Aqui os links para chegar no tópico que seja do seu interesse
   mkdir -p /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]/[Nome_do_Usuário] 
   ```
   
-  14. Criar Pasta em um Diretorio
+  15. Criar Pasta em um Diretorio
   ```ruby
   chgrp [Nome_da_Pasta_do_Grupo] /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo] [Nome_da_Pasta_do_Grupo]
   ```
   
-  15. Dar Permissão para um Grupo/Usuário
+  16. Dar Permissão para um Grupo/Usuário
   
   __GRUPO__
   ```ruby
@@ -194,7 +202,7 @@ Aqui os links para chegar no tópico que seja do seu interesse
   ```ruby      
   chmod 750 /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]/[Nome_do_Usuário]
   ```
-  16. Tornar um Usuário Dono da Pasta
+  17. Tornar um Usuário Dono da Pasta
   ```ruby
   chown [Nome_do_Usuário].[Nome_do_Grupo] /mnt/[Nome_do_Diretorio]/[Nome_do_Grupo]/[Nome_do_Usuário]
   ```
