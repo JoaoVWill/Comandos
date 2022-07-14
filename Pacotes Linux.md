@@ -1,6 +1,6 @@
 # LISTA DE PACOTES DO LINUX
 
-Segue uma lista com alguns ```Pacotes``` para instalar no Linux e seus ```Comandos Basícos``` ***(digitar somente o que está em parenteses)***
+Segue uma lista com alguns ```Pacotes``` para instalar no Linux e seus ```Comandos``` ***(digite o nome do pacote que está em parenteses)***
 - VIM **(vim)**
 - SSH **(ssh openssh-server)**
 - Net-tools **(net-tools)**
