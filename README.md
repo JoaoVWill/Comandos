@@ -1,2 +1,6 @@
 # Comandos
-Repositório com comandos aprendidos para Linux
+### **Repositório reservado para armazenar comandos aprendidos para uso em Linux**
+
+*Distribuições já utilizadas:*
+- Debian
+- Ubuntu
