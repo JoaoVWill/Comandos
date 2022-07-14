@@ -1,21 +1,21 @@
-# <img align="center" alt="Debian" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-plain-wordmark.svg" /> **Comandos_Debian**
+# <img align="center" alt="Debian" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-plain-wordmark.svg" /> Comandos Debian
 
-### *Descrição*
+### Descrição
 
-  Arquivo .md separado para armazenar comandos gerais do Linux Debian 
+  Repositório ```.md``` reservado para armazenar comandos gerais do Linux - Debian 
   *podem funcionar em outro sistemas de base Linux ou não*
-  
-### *Informações*
 
-Alguns detalhes a se falar aqui sobre este repositório:
+##  
+
+#### *Informações*
+
 - O comando que tiver o "vim" poderar ser substituido pelo editor de texto que você tiver em sua máquina;
-- Aqui eu irei colocar o básico dos comandos, nenhuma config mais especifica ou mais detalhada;
+- Aqui eu irei colocar os comandos e suas "tag";
+- Certos comandos teram detalhes aqui ou com link redirecionando para um repositório correspondente;
 
-##
+#### *Tópicos*
 
-### *Tópicos*
-
-Aqui os links para chegar no tópico que seja do seu interesse
+Aqui os **links** para chegar no tópico que seja do seu interesse
 
 - [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS_DEBIAN.md#in%C3%ADcio)
 
@@ -27,7 +27,7 @@ Aqui os links para chegar no tópico que seja do seu interesse
 ## 
 
 ### *Início*
-  ***Aqui está o mais basíco do Linux:***
+  ***Comandos de uso comum e diário:***
   1. Instalação de pacotes: 
   ```ruby
   apt install [NOME_DO_PACOTE]
@@ -54,7 +54,7 @@ Aqui os links para chegar no tópico que seja do seu interesse
 ##
 
 ### *Máquina*
-  ***Comandos relacionada a máquina geral***
+  ***Comandos relacionados a gestão de sua máquina:***
   1. Mudar nome da máquina:
   ```ruby
   hostnamectl set-hostname [Nome]
