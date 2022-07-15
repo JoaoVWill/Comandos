@@ -15,7 +15,7 @@
 
 #### *Tópicos*
   Aqui alguns tópicos para se guiar pelo repositório
-- 
+- [INÍCIO](https://github.com/jvwill/Comandos/edit/main/COMANDOS%20-%20DEBIAN.md#in%C3%ADcio)
 ##
 
 ### *Início*
