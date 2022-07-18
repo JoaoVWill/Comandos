@@ -16,6 +16,9 @@
 #### *Tópicos*
   Aqui alguns tópicos para se guiar pelo repositório
 - [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#in%C3%ADcioo)
+- [USUÁRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#usuários)
+- [GRUPOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
+- [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
 ##
 
 ### *Início*
@@ -110,12 +113,12 @@ cat /etc/passwd
   chown [Usuário].[Grupo_do_Usuário] [Caminho_Absoluto_do_Diretório/Arquivo]
   ```
   
-### Grupos
+### *GRUPOS*
 ***comandos relacionados a criação e configurações de Grupos***
 
 1. Criar um grupo
   ```ruby
   addgroup
   ```
-### Diretórios
+### *DIRETÓRIOS*
 ***comandos relacionados a manipulação de Diretórios***
