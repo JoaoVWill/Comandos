@@ -131,7 +131,7 @@ cat /etc/passwd
   ```
 4. Mostrar grupos que um usuário pertence
   ```ruby
-  groups (USUÁRIO)
+  groups [USUÁRIO]
   ```
 ### DIRETÓRIOS
 ***comandos relacionados a manipulação de Diretórios***
