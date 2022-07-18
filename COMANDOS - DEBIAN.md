@@ -81,19 +81,41 @@ passwd
 cat /etc/passwd
 ```
 
-6. Adicionar Usuário ao Grupo
-- Criar já o usuário dentro de um grupo
-```ruby
-adduser [Nome_do_Usuário][Grupo]
-```
-- Criar um grupo já com um usuário
-```ruby
-addgroup [Nome_do_Usuário][Grupo]
-```
-- Adicionar de maneira comum
-```ruby
-gpasswd -a [Nome_do_Usuário][Grupo]
-```
-```ruby
-usermod -a -G [Grupo][Nome_do_Usuário]
-```
+6. Adicionar usuário a um grupo
+   - Criar usuário dentro de um grupo
+   ```ruby
+   adduser [Nome_do_Usuário][Grupo]
+   ```
+   - Criar um grupo já com um usuário
+   ```ruby
+   addgroup [Nome_do_Usuário][Grupo]
+   ```
+   - Adicionar de maneira comum
+   ```ruby
+   gpasswd -a [Nome_do_Usuário][Grupo]
+   ```
+
+7. Deletar usuário de um grupo
+  ```ruby
+  gpasswd -d [Nome_do_Usuário][Grupo]
+  ``` 
+  
+8. Dar permissão de um diretório/arquivo a um usuário
+  ```ruby
+  chmod [Caminho_Absoluto_do_Diretório/Arquivo]
+  ```
+  
+9. Tornar usuário dono de um diretório
+  ```ruby
+  chown [Usuário].[Grupo_do_Usuário] [Caminho_Absoluto_do_Diretório/Arquivo]
+  ```
+  
+### Grupos
+***comandos relacionados a criação e configurações de Grupos***
+
+1. Criar um grupo
+  ```ruby
+  addgroup
+  ```
+### Diretórios
+***comandos relacionados a manipulação de Diretórios***
