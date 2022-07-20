@@ -1,5 +1,8 @@
 # LISTA DE PACOTES DO LINUX
-#### *Este é um sub-repositório de* **[COMANDOS_DEBIAN](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md)** *com pacotes, nomes de instalação e seus comandos*
+### Descrição
+*Este é um sub-repositório de* **[COMANDOS_DEBIAN](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md)** *com pacotes, nomes de instalação e seus comandos*
+
+#
 
 Segue uma lista com alguns ```Pacotes``` para instalar no Linux e seus ```Comandos``` ***(digite o nome do pacote que está em parenteses)***
 - VIM **(vim)**
