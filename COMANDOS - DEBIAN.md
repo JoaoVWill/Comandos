@@ -18,7 +18,7 @@
 - [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#in%C3%ADcioo)
 - [USUÁRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#usuários)
 - [GRUPOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
-- [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
+- [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#diretórios)
 ##
 
 ### Início
@@ -104,14 +104,15 @@ cat /etc/passwd
   gpasswd -d [NOME_DO_USUÁRIO][GRUPO]
   ``` 
   
-8. Dar permissão de um diretório/arquivo a um usuário
+8. Dar permissão de um diretório/arquivo a um usuário[^3]
+[^3]: as ```opções``` e/ou ```permissões``` estão neste segunte repositório [Opções e Permissões](https://github.com/jvwill/Comandos/blob/Default/Opções%20%26%20Permissões%20de%20Comandos.md)
   ```ruby
-  chmod [CAMINHO_ABSOLUTO_DO_DIRETÓRIO/ARQUIVO]
+  chmod  [opções] [permissões] [DIRETÓRIO/ARQUIVO]
   ```
   
-9. Tornar usuário dono de um diretório
+9. Tornar usuário dono de um diretório[^3]
   ```ruby
-  chown [USUÁRIO].[GRUPO_DO_USUÁRIO] [CAMINHO_ABSOLUTO_DO_DIRETÓRIO/ARQUIVO]
+  chown [opções] [USUÁRIO].[GRUPO_DO_USUÁRIO] [DIRETÓRIO/ARQUIVO]
   ```
   
 ### GRUPOS
