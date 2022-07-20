@@ -11,3 +11,14 @@
   | -f / --silent | Não mostra a maior parte das mensagens de erro |
   | -c / --change | Mostra os arquivos que tiveram as permissões alteradas |
   | -R / --recursive | Muda permissões de acesso do ```diretório/arquivo``` no diretório atual e sub-diretórios |
+
+**GPASSWD**
+
+  | Opções | Função |
+  | --- | --- |
+  | -r | Remove a senha de grupo |
+  | -R | Desativa o acesso do grupo usando ```newgrp``` |
+  | -a | Adiciona o usuário no grupo especificado |
+  | -d | Apaga o usuário do gurpo especificado |
+  | -A | Define que o ```usuario``` será o administrador do ```grupo``` |
+  | -M  | Define os ```usuários``` que fazem parte do ```grupo``` e suas permissões |
