@@ -134,5 +134,10 @@ cat /etc/passwd
   ```ruby
   groups [USUÁRIO]
   ```
+5. Mudar o grupo de um diretório/arquivo
+  ```ruby
+  chgrp [opções] [grupo] [arquivo/diretório]
+  ```
+  
 ### DIRETÓRIOS
 ***comandos relacionados a manipulação de Diretórios***
