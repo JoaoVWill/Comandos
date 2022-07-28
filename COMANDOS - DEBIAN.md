@@ -16,6 +16,7 @@
 #### *Tópicos*
   Aqui alguns tópicos para se guiar pelo repositório
 - [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#in%C3%ADcioo)
+- [MÁQUINA]()
 - [USUÁRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#usuários)
 - [GRUPOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
 - [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#diretórios)
@@ -52,6 +53,40 @@ history
 ping
 ```
 
+### MÁQUINA
+***comando com relação a utilização de sua máquina***
+
+1. Trocar o nome da máquina
+```ruby
+hostnamectl set-hostname [NOME]
+```
+
+2. Reiniciar a máquina [^2]
+[^2]: o comando `systemctl restart netwoking` pode ser usado parareiniciar serviços, só trocar o *netwoking* pelo nome do pacote
+```ruby
+systemctl restart netwoking
+```
+
+```ruby
+service networkinfg resart 
+```
+
+3. Ver caminho absoluto de onde está
+```ruby
+pwd
+```
+
+4. Acessar/configurar interfaces da máquina[^3]
+[^3]: Necessário o pacote `vim` instalado
+```ruby
+vim /etc/network/intefaces
+```
+
+5. Ver endereçamento de rede
+```ruby
+ip add
+```
+
 ### USUÁRIOS
 ***comandos relacionados a uso de usuários***
 
@@ -85,8 +120,8 @@ cat /etc/passwd
 ```
 
 6. Adicionar usuário a um grupo
-   - Criar usuário dentro de um grupo [^2]
-   [^2]:É necessário criar um grupo antes de executar este comando
+   - Criar usuário dentro de um grupo [^4]
+   [^4]:É necessário criar um grupo antes de executar este comando
    ```ruby
    adduser [NOME_DO_USUÁRIO][GRUPO]
    ```
@@ -104,13 +139,13 @@ cat /etc/passwd
   gpasswd -d [NOME_DO_USUÁRIO][GRUPO]
   ``` 
   
-8. Dar permissão de um diretório/arquivo a um usuário[^3]
-[^3]: as ```opções``` e/ou ```permissões``` estão neste segunte repositório [Opções e Permissões](https://github.com/jvwill/Comandos/blob/Default/Opções%20%26%20Permissões%20de%20Comandos.md)
+8. Dar permissão de um diretório/arquivo a um usuário[^5]
+[^5]: as ```opções``` e/ou ```permissões``` estão neste segunte repositório [Opções e Permissões](https://github.com/jvwill/Comandos/blob/Default/Opções%20%26%20Permissões%20de%20Comandos.md)
   ```ruby
   chmod  [opções] [permissões] [DIRETÓRIO/ARQUIVO]
   ```
   
-9. Tornar usuário dono de um diretório[^3]
+9. Tornar usuário dono de um diretório[^5]
   ```ruby
   chown [opções] [USUÁRIO].[GRUPO_DO_USUÁRIO] [DIRETÓRIO/ARQUIVO]
   ```
@@ -134,7 +169,7 @@ cat /etc/passwd
   ```ruby
   groups [USUÁRIO]
   ```
-5. Mudar o grupo de um diretório/arquivo
+5. Mudar o grupo de um diretório/arquivo[^5]
   ```ruby
   chgrp [opções] [grupo] [arquivo/diretório]
   ```
