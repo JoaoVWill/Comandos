@@ -1,9 +1,9 @@
-# <img align="center" alt="Debian" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-plain-wordmark.svg" /> Comandos Debian
+# <img align="center" alt="Jv-Linux" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"> Comandos Linux - Debian <img align="center" alt="Debian" height="70" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-plain-wordmark.svg">
 
 ### Descrição
 
-  Repositório ```.md``` reservado para armazenar comandos gerais do Linux - Debian 
-  *podem funcionar em outro sistemas de base Linux ou não*
+  Repositório ```.md``` reservado para armazenar comandos gerais e de uso diário no Linux - Debian 
+  *alguns podem funcionar em outros sistemas de base Linux ou não*
 
 ##  
 
@@ -11,7 +11,7 @@
 
 - O comando que tiver o "vim" poderar ser substituido pelo editor de texto que você tiver em sua máquina;[^0]
 - Aqui eu irei colocar os comandos e suas `opções & permissões` em outro git;
-- 
+- Esse git está com vários comandos para tarefas diárias.
 
 [^0]: Vim é o editor de texto mais comum em distribuições linux
 
@@ -22,6 +22,7 @@
 - [USUÁRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#usuários)
 - [GRUPOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
 - [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#diretórios)
+
 ##
 
 ### Início
