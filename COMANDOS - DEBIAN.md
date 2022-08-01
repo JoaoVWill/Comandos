@@ -18,7 +18,7 @@
 #### *Tópicos*
   Aqui alguns tópicos para se guiar pelo repositório
 - [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#in%C3%ADcioo)
-- [MÁQUINA]()
+- [MÁQUINA](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#máquina)
 - [USUÁRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#usuários)
 - [GRUPOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
 - [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#diretórios)
