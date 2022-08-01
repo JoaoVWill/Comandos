@@ -9,9 +9,11 @@
 
 #### *Informações*
 
-- O comando que tiver o "vim" poderar ser substituido pelo editor de texto que você tiver em sua máquina;
-- Aqui eu irei colocar os comandos e suas "tag";
-- Certos comandos teram detalhes aqui ou com link redirecionando para um repositório correspondente;
+- O comando que tiver o "vim" poderar ser substituido pelo editor de texto que você tiver em sua máquina;[^0]
+- Aqui eu irei colocar os comandos e suas `opções & permissões` em outro git;
+- 
+
+[^0]: Vim é o editor de texto mais comum em distribuições linux
 
 #### *Tópicos*
   Aqui alguns tópicos para se guiar pelo repositório
