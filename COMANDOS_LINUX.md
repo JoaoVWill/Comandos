@@ -13,15 +13,13 @@
 - Aqui eu irei colocar os comandos e suas `opções & permissões` em outro git;
 - Esse git está com vários comandos para tarefas diárias.
 
-[^0]: Vim é o editor de texto mais comum em distribuições linux
-
 #### *Tópicos*
-  Aqui alguns tópicos para se guiar pelo repositório
-- [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#in%C3%ADcioo)
-- [MÁQUINA](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#máquina)
-- [USUÁRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#usuários)
-- [GRUPOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
-- [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#diretórios)
+- Aqui alguns tópicos para se guiar pelo repositório
+  - [INÍCIO](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#in%C3%ADcioo)
+  - [MÁQUINA](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#máquina)
+  - [USUÁRIOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#usuários)
+  - [GRUPOS](https://github.com/jvwill/Comandos/blob/main/COMANDOS%20-%20DEBIAN.md#grupos)
+  - [DIRETÓRIOS](https://github.com/jvwill/Comandos/blob/Default/COMANDOS%20-%20DEBIAN.md#diretórios)
 
 ##
 
@@ -29,12 +27,11 @@
 ***Comandos de uso comum e diário***
 
 1. Instalação de pacotes [^1]
-[^1]:Conhecido como gereciador de pacotes, pode ser substituido por outros gereciadores ```yum,pacman```
+   - [LISTA DE PACOTES](https://github.com/Jv2205/Comandos/blob/main/Pacotes%20Linux.md)
+
 ```ruby
 apt install [NOME_DO_PACOTE] 
 ```
-
-[LISTA DE PACOTES](https://github.com/Jv2205/Comandos/blob/main/Pacotes%20Linux.md)
 
 2. Limpar tela
 ```ruby
@@ -65,7 +62,7 @@ hostnamectl set-hostname [NOME]
 ```
 
 2. Reiniciar a máquina [^2]
-[^2]: o comando `systemctl restart netwoking` pode ser usado parareiniciar serviços, só trocar o *netwoking* pelo nome do pacote
+
 ```ruby
 systemctl restart netwoking
 ```
@@ -80,7 +77,7 @@ pwd
 ```
 
 4. Acessar/configurar interfaces da máquina[^3]
-[^3]: Necessário o pacote `vim` instalado
+
 ```ruby
 vim /etc/network/intefaces
 ```
@@ -143,7 +140,7 @@ cat /etc/passwd
   ``` 
   
 8. Dar permissão de um diretório/arquivo a um usuário[^5]
-[^5]: as ```opções``` e/ou ```permissões``` estão neste segunte repositório [Opções e Permissões](https://github.com/jvwill/Comandos/blob/Default/Opções%20%26%20Permissões%20de%20Comandos.md)
+
   ```ruby
   chmod  [opções] [permissões] [DIRETÓRIO/ARQUIVO]
   ```
@@ -179,3 +176,14 @@ cat /etc/passwd
   
 ### DIRETÓRIOS
 ***comandos relacionados a manipulação de Diretórios***
+
+<!-- 
+Linhas das legendas "[^*]"
+-->
+
+[^0]: Vim é o editor de texto mais comum em distribuições linux
+[^1]: Conhecido como gereciador de pacotes, pode ser substituido por outros gereciadores ```yum,pacman```
+[^2]: o comando `systemctl restart netwoking` pode ser usado parareiniciar serviços, só trocar o *netwoking* pelo nome do pacote
+[^3]: Necessário o pacote `vim` instalado
+[^4]:É necessário criar um grupo antes de executar este comando
+[^5]: as ```opções``` e/ou ```permissões``` estão neste segunte repositório [Opções e Permissões](https://github.com/jvwill/Comandos/blob/Default/Opções%20%26%20Permissões%20de%20Comandos.md)
