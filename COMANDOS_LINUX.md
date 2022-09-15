@@ -111,7 +111,7 @@ login [USUÁRIO]
 
 4. Trocar senha do usuário
 ```ruby
-passwd
+passwd [USUÁRIO]
 ```
 
 5. Vizulizar usuários
