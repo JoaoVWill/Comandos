@@ -177,9 +177,7 @@ cat /etc/passwd
 ### DIRETÓRIOS
 ***comandos relacionados a manipulação de Diretórios***
 
-<!-- 
-Linhas das legendas "[^*]"
--->
+<!-- Linhas das legendas "[^*]" -->
 
 [^0]: Vim é o editor de texto mais comum em distribuições linux
 [^1]: Conhecido como gereciador de pacotes, pode ser substituido por outros gereciadores ```yum,pacman```
